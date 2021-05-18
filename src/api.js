@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL:
-    "https://cors-anywhere.herokuapp.com/https://book.interpark.com/api/",
+  baseURL: "https://cors.bridged.cc/https://book.interpark.com/api/",
   params: {
     key: "F026AED7229720A43B7C765E6AD84FC47C584173CED33CA20381913E55BE0250",
     output: "json",
